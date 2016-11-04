@@ -56,6 +56,7 @@ public class InterfazGrafica {
      * C√≥digo num√©rico para detectar que se ha pulsado la tecla R que comenzar√°
      * de nuevo el nivel.
      */
+    
     public static final int TECLA_R = 4;
 
     /**
@@ -369,4 +370,3 @@ public class InterfazGrafica {
     }
 
 }
-

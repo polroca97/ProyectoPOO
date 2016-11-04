@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package moo.proyecto.entrega1;
 
-/**
- *
- * @author victestrada
- */
-public class Main {
+
+public class Main extends java.lang.Object{
     
+    
+    public Main (){
+        
+    }
+    
+    public static void main (java.lang.String args[]){ 
+        ControlJuego  juego = new ControlJuego();
+        juego.cargaNiveles();
+        juego.empiezaPartida();     
+    }
 }

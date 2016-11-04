@@ -124,10 +124,8 @@ public class Celda {
             } else {
                 return false;
             }
-     
-    }
-
-    public boolean pasa(Jugador j) {
+            
+                public boolean pasa(Jugador j) {
 //        Método que implementa las acciones a realizar cuando el jugador realmente llega a una celda; este método devuelve true si esta celda tiene el obstáculo puerta y false en caso contrario. 
 //Si en la celda hay un item, hacer que el jugador tome ese item. El método puedePasar() solo permite pasar al jugador a una celda con un item si el jugador no tiene ninguno. 
 //Si en la celda hay un obstáculo 
@@ -135,4 +133,8 @@ public class Celda {
 //...b. Si el obstáculo que hay en la celda es la puerta, devolver true. Eso indicará que el juego puede cambiar a un nivel superior. 
 //Dejar la celda vacía y devolver false
     }
-}
+     
+    }
+
+
+
